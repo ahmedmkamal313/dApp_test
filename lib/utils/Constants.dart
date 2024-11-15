@@ -8,4 +8,5 @@ class Constants {
   final whiteColor = const Color(0xffFFFFFF);
   final blackColor = const Color(0xff000000);
   final secondryTextColor = const Color(0xff000435);
+  final cardColor = const Color(0xffFAF3DD);
 }
