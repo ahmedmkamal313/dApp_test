@@ -7,7 +7,7 @@ Widget unitCardWidget(String imageUrl, String unitName, String unitPrice) {
   Constants constants = Constants(); // Create an instance of Constants to access predefined color values
 
   return Container(
-    height: 325, // Set the height of the card to 325 pixels
+    height: 275, // Set the height of the card to 325 pixels
     decoration: BoxDecoration(
       color: constants.cardColor, // Set the background color of the card using a constant value
       borderRadius: BorderRadius.circular(30), // Apply rounded corners to the card with a radius of 30
@@ -21,7 +21,7 @@ Widget unitCardWidget(String imageUrl, String unitName, String unitPrice) {
           borderRadius: const BorderRadius.vertical(top: Radius.circular(30)), // Apply rounded top corners to the image
           child: Image.network(
             imageUrl, 
-            height: 250, // Set the height of the image to 250 pixels
+            height: 200, // Set the height of the image to 250 pixels
             width: double.infinity, // Ensure the image takes up the full width of the container
             fit: BoxFit.cover, // Ensure the image covers the entire area while maintaining its aspect ratio
           ),
